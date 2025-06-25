@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINE PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a1089795d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <img src="coollogo_com-47078632.png" id="logo" >
+                <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#mohan">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#my">Portfolio</a></li>
+                <li><a href="#add">Contact</a></li>
+            </ul>
+            </div>
+          <div class="text">
+            <p>UI/UX Designer<br>HI,I'M <SPan>MUKUL</SPan><br>Singh From Mathura.</p>
+          </div>
+        </div>
+
+    </div>
+    
+    <div class="about" id="mohan">
+        <div class="img-about">
+            <div class="image"><img src="IMG_20221018_170153.jpg" > </div>
+            <div class="heading">
+                <h1 id="text">About</h1>
+            <pre>hi my self mukul singh and im from mathura well known temple city in utttar pradesh
+and currently im percuing btech from ajay kumar garg engineering college.
+            </pre>
+            <ul>
+                <li><span>education</span></li>
+                <li>IN CLASS 12 I OBTAINED 92.2% OVERALL.
+                </li>
+                <li>In btech 1 year OVERALL cgpa is 8.</li>
+                <li>In class 10 i obtained 76%</li>
+            </ul>
+        </div>
+            
+        </div>
+    </div>
+    <div id="service">
+        <h1>My Service</h1>
+        <div class="box">
+            <div class="box1">
+                <center><i class="fa-solid fa-code"></i></center>
+                <center><pre>UI/UX</pre></center>
+                <center><P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, tempora.</P></center>
+            <center><a href="">click here</a></center>
+            </div>
+            <div class="box2">
+                <center><i class="fa-solid fa-crop"></i></center>
+                <center><pre>DESIGN</pre></center>
+                <center><P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, tempora.</P></center>
+            <center><a href="">click here</a></center>
+            </div>
+            <div class="box3">
+                <center><i class="fa-brands fa-app-store-ios"></i></center>
+                <center><pre>ANDROID</pre></center>
+                <center><P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, tempora.</P></center>
+            <center><a href="">click here</a></center>
+            </div>
+        </div>
+    </div>
+    <div class="my-work" id="my">
+        <h1>My Work</h1>
+        <div class="boxx">
+            <div class="box11">
+            <img src="work-1.png" height="350px" width="300px" >
+            <div class="layer">
+                <h3 style="color: crimson;">Music app</h3>
+                <p>the app connect you to the talented person of the world.
+                    download it from the play store .
+                </p>
+                <a href=""><i class="fa-solid fa-link"></i></a>
+            </div>
+                
+            </div>
+            <div class="box22">
+               <img src="work-2.png" height="350px" width="300px">
+               <div class="layer">
+                <h3 style="color: crimson;">social media app</h3>
+                <p>the app connect you to the talented person of the world.
+                    download it from the play store .
+                </p>
+                <a href=""><i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+            <div class="box33">
+              <img src="work-3.png" height="350px" width="300px" >
+              <div class="layer">
+                <h3 style="color: crimson;">online Shopping app</h3>
+                <p>the app connect you to the talented person of the world.
+                    download it from the play store .
+                </p>
+                <a href=""><i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+    </div>
+    <div class="contact" id="add">
+        <div class="paper">
+            <h1>Contact Me</h1>
+            <i class="fa-solid fa-envelopes-bulk" id="logoo"></i><br>
+            <p id="mail">mukultechwith@gmail.com</p><br>
+            <i class="fa-solid fa-phone"></i><br>
+            <p>7668454238</p><br>
+            <div class="tw">
+                <a href="https://www.instagram.com/developer7179/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/mukul_tm?t=Z2-iqp3e9xH5Ezas6hn6ew&s=08"><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <button>Download CV</button>
+        </div>
+        <div class="input">
+            <form action="" onsubmit=" return shobhit()" name="submit-to-google-sheet">
+          <input type="text" placeholder="your name" id="sho" name="Name">
+          <br><br>
+        <input type="text" placeholder="your email" id="muk" name="Email">
+        <br><br>
+        <textarea name="address" id="jok" cols="30" rows="10" placeholder="enter address"></textarea> 
+        <center><button id="id">SUBMIT</button></center>
+    </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Kevin.Made With <i class="fa-solid fa-heart"></i> By Easy Tutorials</p>
+    </div>
+    
+
+
+
+    <script>
+        function shobhit(){
+        let a=document.querySelector('#sho').value;
+        let b=document.querySelector('#muk').value;
+        let c=document.querySelector('#jok').value;
+        
+        
+        if(a==''||b==''||c==''){
+            alert('please complete all the field')
+            return false;
+        }
+        else
+             true;
+
+    }
+    </script>
+   
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8mhYk2E9yFKW2oXTtuvoK90x5o5iQQBiUVU0MvOhutYRfNXBf1dv2aD3JhMGtMjUn/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
